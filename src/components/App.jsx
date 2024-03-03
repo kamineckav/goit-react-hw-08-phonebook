@@ -9,6 +9,8 @@ import SharedLayout from './SharedLayout/SharedLayout';
 import { useDispatch } from 'react-redux';
 import { current } from '../redux/auth/auth-operartion';
 import { useEffect } from 'react';
+import css from './App.module.css'
+
 export const App = () => {
   const dispatch = useDispatch();
 
@@ -17,7 +19,7 @@ export const App = () => {
   }, [dispatch]);
 
   return (
-    <div>
+    <div className={css.container}>
       <Routes>
         <Route path="/" element={<SharedLayout />}>
           <Route element={<PublicRoute />}>
