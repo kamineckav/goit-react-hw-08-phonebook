@@ -1,0 +1,25 @@
+.block {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.link {
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+  color: #303030;
+  transition: color 200ms;
+  background-color: #6a5acd;
+  color: #e6e6fa;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.link:hover,
+.link:active {
+  transition: background-color 250ms, color 250ms;
+  background-color: #483d8b;
+  color: #e6e6fa;
+  border-radius: 12px;
+}

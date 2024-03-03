@@ -1,0 +1,23 @@
+.link {
+  display: inline-block;
+  text-decoration: none;
+  color: #030303;
+  transition: color 200ms;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.link:hover,
+.link:active {
+  transition: color 200ms;
+  color: #483d8b;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #303030;
+  padding: 20px;
+}

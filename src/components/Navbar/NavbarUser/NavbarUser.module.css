@@ -1,0 +1,30 @@
+.block {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.text {
+  color: #303030;
+  font-weight: bold;
+  margin: 0;
+}
+
+.button {
+  transition: background-color 250ms, color 250ms;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  background-color: #6a5acd;
+  color: #e6e6fa;
+    cursor: pointer;
+  padding: 10px;
+  text-align: center;
+}
+
+.button:hover,
+.button:active {
+  transition: background-color 250ms, color 250ms;
+  background-color: #483d8b;
+  color: #e6e6fa;
+}
